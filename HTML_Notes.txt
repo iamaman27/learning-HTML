@@ -1,0 +1,34 @@
+To Select Multiple tags -> alt + enter
+alt+z -> sixe fixinmg size in vs code 
+
+
+
+# Table in <!-- ========== Start Section ========== -->
+1. it is a collection of row and columns.
+2. To create Table in html we use <table></table> tags.
+3. Here we are creating table row by row. To create table row by row we use <tr></tr> tag.
+4. <tr></tr> Tag we have to write within table tag.
+5. To create cells html provides 2 tags.
+   i) <Th></Th> Tag:- It is used to create table Heading Cells.
+   ii) <Td></Td>  Tag:- It is used to create Table Data Cells.
+6. To provide title or caption to the table we use <caption></caption> Tag.
+7. Caption tag we have to write within table tag.
+
+
+# Cellspanning:-
+Here we have to 2 ways to spans the cells.
+
+1. colspan:- Colspan is an attribute used to span the cells on column basis.
+2. rowspan:- rowspan is an attribute used to span the cells on row basis.
+
+syntax:- We use these attribute inside cells.
+   <td rowspan="3"  colspan="2"></td>
+   <th rowspan="3" colspan="3"></th>
+
+
+# Thead Tag:- 
+The Top most part of our table we have to write within <thead></thead> tag.
+
+#
+
+<!-- ========== End Section ========== -->
