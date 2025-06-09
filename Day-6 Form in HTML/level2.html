@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form part-2</title>
+    <style>
+      fieldset {
+        width: 25px;
+      }
+      sup {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend align="center">Login Form</legend>
+        <label for="index1">
+          Name <sup>*</sup>
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter Full Name"
+            id="index1"
+            required
+          /><br /><br />
+        </label>
+
+        <label for="index2">
+          Email <sup>*</sup>
+          <input
+            type="email"
+            name="username"
+            id="index2"
+            placeholder="abc@gmai.com"
+            required
+          /><br /><br />
+        </label>
+
+        <label for="index3">
+          Password <sup>*</sup>
+          <input
+            type="password"
+            name="username"
+            placeholder="enter atleast 8 character"
+            id="index3"
+            required
+          /><br /><br />
+        </label>
+
+        <label for="index4">
+          YOP <br />
+
+          <select name="userYOP" id="index4">
+            <option value="" selected disabled>select your YOP</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+          </select>
+          <br /><br />
+        </label>
+
+        <label for="index5">
+          YOP
+          <input
+          type="text" 
+          id="index5" 
+          name="YOP" 
+          required
+          list="myList" />
+
+          <datalist id="myList"> 
+            <option value="2025"></option>
+            <option value="2024"></option>
+            <option value="2023"></option>
+            <option value="2022"></option>
+          </datalist>
+          <br><br>
+        </label>
+
+        <label for="index7">
+          <textarea 
+          name="userFeedback" 
+          id="index7"
+          placeholder="write something"
+          required
+          rows="30"
+          cols="30"
+          ></textarea>
+          <br><br>
+        </label>
+        
+
+        <button type="submit">Submit</button>
+        <button type="reset">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
