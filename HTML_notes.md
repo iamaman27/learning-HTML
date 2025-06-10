@@ -155,4 +155,50 @@ It is used to accept multiline input from the user.
   height:- rows="10"
   width:- cols="30"
 
+# Difference between pair tag and Unpair Tag.
+# Pair Tag:-
+The pair tag we need to close are referred as pair tag.
+      Eg:- <div></div>, <header></header>
+
+# Unpair tag:-
+The tag we need not to close are referred as Unpair tag.
+    Eg:- <br>, <link>, <hr>, <image>, <source>
+
+# Difference between Inline and Block level Element.
+
+# Inline Level Element:- 
+  i) it occupy space required by content.
+  ii) We can not set height and width.
+  iii) Example:- <br>, <hr>, <img>, <iframe>, <a>, <video>
+
+# Block Level Element:- 
+  i) It always take full width of its parent container.
+  ii) We can set height and width.
+  iii) Example:- <div>, <header>, <footer>, <section>, <article>, <aside>, <nav>, <main>, <body>, <fieldset>
+
+# Difference between ID and Class Attribute.
+
+# ID(#):-
+  i) It is used to target element uniquely.
+  ii) Multiple element can not have the same id.
+  iii) One element can have only one id's value.
+  iv) To target on element using id we use #.
+
+# Class(.):-  
+  i) It is used to target multiple element at a time.
+  ii) multiple elements can have same class.
+  iii) one element can have multiple class value.
+  iv) To target an element using class in css we use .(dot).
+
+# Div:- 
+It is used to create block level container.
+
+# Span:- 
+It is used to create Inline level container.
+
+# Element:- It is the combination of opening tag and content with closing tag.
+     Example:- <p>Hello<p>
+
+
+
 
