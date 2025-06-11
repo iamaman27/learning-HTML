@@ -197,7 +197,7 @@ It is used to create block level container.
 It is used to create Inline level container.
 
 # Element:- It is the combination of opening tag and content with closing tag.
-     Example:- <p>Hello<p>
+     Example:- <p>Hello<p>.
 
 
 
